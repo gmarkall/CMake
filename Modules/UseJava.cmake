@@ -917,11 +917,11 @@ function(create_javadoc _target)
     endif ()
 
     if (_javadoc_doctitle)
-        set(_javadoc_options ${_javadoc_options} -doctitle '${_javadoc_doctitle}')
+        set(_javadoc_options ${_javadoc_options} -doctitle \"${_javadoc_doctitle}\")
     endif ()
 
     if (_javadoc_windowtitle)
-        set(_javadoc_options ${_javadoc_options} -windowtitle '${_javadoc_windowtitle}')
+        set(_javadoc_options ${_javadoc_options} -windowtitle \"${_javadoc_windowtitle}\")
     endif ()
 
     if (_javadoc_author)
