@@ -1,5 +1,13 @@
-class HelloWorld
+/**
+ * A class for hello world.
+ */
+public class HelloWorld
 {
+    /**
+     * The main method.
+     *
+     * Makes an A and says hello.
+     */
     public static void main(String args[])
     {
         A a;
